@@ -1,0 +1,61 @@
+#toolbar {
+	background-color: #f2f2f2;
+	padding: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 99%;
+	border-style: solid;
+    border-width: 1px 1px 0 1px;
+    border-color: #ccc;
+}
+
+#toolbar button, #toolbar select, #toolbar input[type=color] {
+	margin-right: 5px;
+	margin-bottom: 5px;
+	font-size: 14px;
+	border: none;
+	color: #333;
+	padding: 5px 10px;
+	border-radius: 3px;
+	background-color: #fff;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+#toolbar button:hover, #toolbar select:hover, #toolbar input[type=color]:hover {
+	background-color: #f2f2f2;
+}
+
+#toolbar button:active, #toolbar select:active, #toolbar input[type=color]:active {
+	background-color: #e6e6e6;
+}
+
+#toolbar button:focus, #toolbar select:focus, #toolbar input[type=color]:focus {
+	outline: none;
+	box-shadow: 0 0 2px #4d90fe;
+}
+
+#editor:focus {
+    outline: none;
+}
+
+#editor {
+	width: 99%;
+	height: 400px;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 1.5;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
+#toolbar button.activo {
+	background-color: blue;
+	color: white;
+  }
+
+  input[type="file"] {
+	display: none;
+  }
